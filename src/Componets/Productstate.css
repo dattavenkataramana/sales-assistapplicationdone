@@ -1,0 +1,42 @@
+.product_state_conatainer{
+    display: flex;
+    padding: 10px;
+    flex-wrap: nowrap;
+    overflow: auto;
+   
+    
+}
+
+.icon-backpack{
+    font-size: 40px;
+    padding: 25px;
+    color: #fcfafa;
+
+    
+}
+
+.icon-backpack:hover{
+    background-color:  palevioletred;
+}
+
+.product_label{
+    font-size: 15px;
+}
+
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-track{
+    background: hsl(144, 82%, 50%);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+
+    background: hsl(327, 100%, 50%);
+    border-radius: 5px;
+   
+
+}

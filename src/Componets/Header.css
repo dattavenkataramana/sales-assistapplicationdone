@@ -1,0 +1,19 @@
+.headers{
+    color: pink;
+}
+
+.list_style{
+    display: flex;
+    justify-content: center;
+    line-height: 28px;
+    padding-top: 5px;
+    color:#E5DFD9; 
+    font-family: 'Comme';
+    flex-wrap: wrap;
+    
+}
+
+.list-styles:hover{
+    background-color: palevioletred;
+    border-radius: 5px;
+}
