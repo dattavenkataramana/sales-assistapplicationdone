@@ -66,18 +66,29 @@
     width: 260px;
     height: fit-content;
     border-radius: 5px;
-   
-  
   
   }
+
+  @media screen and (max-width: 768px) {
+    .map-image {
+      width: auto;  
+      height: auto;  
+    }
+    .product-container{
+        height: auto;
+        width: auto;
+    }
+  }
   
+
+   
   .product-container:hover{
     transform: translate(-15px);
   }
   
   .map-image{
   
-    max-width: 100%;
+    height: auto;
     width: 100%;
     border-radius: 10px;
     object-fit: cover;
@@ -88,10 +99,7 @@
   flex-wrap: wrap;
   padding-left: 30px;
   
-  
-  
-  
-    
+
   }
   
   .price{
@@ -101,7 +109,7 @@
   }
   
   @media screen and (max-width:991px){
-  
+     
     .no-product-found{
       height: 330px;
       width: 330px;
