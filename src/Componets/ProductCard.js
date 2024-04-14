@@ -5,6 +5,7 @@ import "./ProductCard.css";
 import { FaSearch } from "react-icons/fa";
 import LazyLoad from "react-lazy-load";
 import { CirclesWithBar } from "react-loader-spinner";
+import { Link } from "react-router-dom"; // Import Link component
 
 function Productcard() {
   const [products, setProducts] = useState([]);
@@ -35,8 +36,17 @@ function Productcard() {
     <Container>
       <Row>
         <Col>
-          <div>
+          <div className="flex-con">
             <h2 className="mains-heading">Bags <span>.</span> Backpacks</h2>
+            {/* Use Link component to navigate to the reviews page */}
+            <Link to="/reviews" className="review-link">
+              <h2>
+                Reviews{" "}
+                <span style={{ color: "red", fontSize: "10px" }}>
+                  Click Me Reviews
+                </span>
+              </h2>
+            </Link>
           </div>
           <div className="input-wrapper">
             <FaSearch id="search-icon" />
@@ -79,7 +89,7 @@ function Productcard() {
                         <p className="text-center price">₹ {amount}</p>
                         <div className="rating-container">
                           <p className="ratings text-center">{`${mamamount} ⭐`}</p>
-                          <p  style={{color:"green"}} ></p>
+                          <p style={{ color: "green" }}></p>
                         </div>
                         <div className="btns text-center">
                           <button className="btns">{off}</button>

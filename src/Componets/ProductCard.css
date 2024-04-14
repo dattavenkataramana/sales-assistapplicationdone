@@ -5,7 +5,12 @@
     color:  #E5DFD9;
   }
 
-
+  .flex-con{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: rgb(244, 121, 188);
+  }
   .cou-img{
     width: 100%;
     max-height: 60vh; 

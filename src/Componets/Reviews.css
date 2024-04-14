@@ -1,0 +1,23 @@
+.review-item {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+  
+  .review-item.even {
+    background-color: #e9e9e9;
+  }
+  
+  .review-item h3 {
+    color: #333;
+  }
+  
+  .review-item p {
+    margin-bottom: 10px;
+  }
+  
+  .review-item a {
+    color: #fff;
+  }
+  
